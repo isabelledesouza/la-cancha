@@ -1,20 +1,24 @@
 
 import Logo from  "../Images/field.svg"
+import './../Styles/navbar.css'
 
 
 const NavBar = () =>  {
     return (
-        <div>
-            <div>
-               <a href="home" className="" ><img src= {Logo} alt = "#"/></a> 
-                <span>Reservo mi cancha</span>
+        <div className="nav">
+            <div >
+                <h1 className="title">La Cancha</h1>
+               {/* <a href="home" className="" ><img src= {Logo} alt = "#"/></a>  */}
+                <span className="subtitle">Reservo mi cancha</span>
             </div>
         <nav>
-            <ul>
-                <li><a href="#acerca">Acerca de</a></li>
-                <li><a href="#centro">Soy un centro Derportivo </a></li>
-                <li><a href="#registrate">Registrate  </a></li>
-                <li><a href="#ingressa">Ingressar</a></li>
+            <ul className="navul">
+                
+                <li><a href="#centro">Perfil</a></li>
+                <li><a href="#favoritas">Favoritas</a></li>
+                <li><a href="#buscar">Buscar</a></li>
+                <li><a href="#registrate">Registrate</a></li>
+                <li><a href="#ingressa">Ingresar</a></li>
             </ul>
         </nav>
         </div>
