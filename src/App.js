@@ -1,11 +1,7 @@
 import Header from "./components/NavBar";
 import Footer from "./components/Footer";
 import Slider from "./components/Carousel";
-
-
-
-
-
+import Form from "./components/Form/Form";
 import './App.css';
 
 function App() {
@@ -13,6 +9,7 @@ function App() {
    <div>
       <Header/>
       <Slider />
+      <Form/>
       <Footer/>
       </div>
   );

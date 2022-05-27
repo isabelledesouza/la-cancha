@@ -27,3 +27,9 @@ h2,
 h3 {
     font-family: 'Varela Round', sans-serif;
 }
+
+.custom-input {
+    margin-top: 12rem; 
+    color: #65A844;
+    height: 4rem; 
+}
